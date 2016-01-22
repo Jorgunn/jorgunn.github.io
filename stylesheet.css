@@ -1,0 +1,88 @@
+body{
+	border: 1px solid #gray;
+	border-radius: 3px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	background: #222;
+}
+header{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+background: #e5e5e5; /* Old browsers */
+background: -moz-linear-gradient(top,  #e5e5e5 0%,#ffffff  100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #e5e5e5 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #e5e5e5 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+margin-top: 20%;
+}
+section{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+background: #e5e5e5; /* Old browsers */
+background: -moz-linear-gradient(top,  #e5e5e5 0%,#ffffff  100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #e5e5e5 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #e5e5e5 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+}
+.title-img{
+	border:2px solid black;
+	border-radius:100%;
+	width:	15%;
+	height:20%;
+	margin-bottom: 2%;
+	margin-left:42%;
+	margin-top: -10%;
+}
+.title{
+	text-align: center;
+	margin-bottom: -5px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 5%;
+}
+.sub-title{
+	margin-top: -1px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.title-main{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+.nav-menu{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222;
+    font-size: 20px;
+    line-height: 50px;
+}
+p{
+	padding:5%;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
