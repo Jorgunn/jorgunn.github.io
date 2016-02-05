@@ -7,47 +7,51 @@ body{
 	background: #222;
 }
 header{
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
-background: #e5e5e5; /* Old browsers */
-background: -moz-linear-gradient(top,  #e5e5e5 0%,#ffffff  100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #e5e5e5 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #e5e5e5 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
-margin-top: 20%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+	background: #e5e5e5; /* Old browsers */
+	border-radius:10px;
+	background: -moz-linear-gradient(top,  #e5e5e5 0%,#ffffff  100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #e5e5e5 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #e5e5e5 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+	margin-top: 50px;
+	padding-top:150px;
 }
 section{
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
-border-radius:5px;
-background: #e5e5e5; /* Old browsers */
-background: -moz-linear-gradient(top,  #e5e5e5 0%,#ffffff  100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #e5e5e5 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #e5e5e5 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+	border-radius:5px;
+	background: #e5e5e5; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e5e5e5 0%,#ffffff  100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #e5e5e5 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #e5e5e5 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
 }
 .title-img{
 	border:2px solid black;
 	border-radius:100%;
-	width:	15%;
-	height:20%;
-	margin-bottom: 2%;
-	margin-left:42%;
-	margin-top: -10%;
+	width:	150px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 150px;
+	margin-bottom: -150px;
+	display:block;
 }
 .title{
 	text-align: center;
 	margin-bottom: -5px;
 	margin-right: auto;
 	margin-left: auto;
-	padding-bottom: 5%;
+	padding-bottom: 50px;
 }
 .sub-title{
 	margin-top: -1px;
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
-	padding-top: 5%;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 .title-main{
 	text-align: center;
@@ -59,8 +63,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     margin: 0;
     padding: 0;
 }
-ul {
-    list-style-type: none;
+.nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -68,15 +71,26 @@ ul {
     font-size: 20px;
     line-height: 50px;
 }
+.nav-li{
+	float:left;
+}
+.resume{
+	padding-left:25px;
+}
+.resume-title{
+	margin-top: -1px;
+	margin-right: auto;
+	margin-left: 50px;
+	padding-top: 10px;
+	padding-left: 50px;
+	text-decoration: underline;
+	font-weight:400px;
+}
 p{
-	padding-bottom: 5%;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
-li {
-    float: left;
-}
-
 li a {
     display: block;
     color: white;
@@ -86,4 +100,12 @@ li a {
 }
 li a:hover {
     background-color: #111;
+}
+ul{
+    margin: 0;
+   	padding-left: 50px;
+	padding-right: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+    line-height: 50px;
 }
