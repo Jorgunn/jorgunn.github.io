@@ -5,6 +5,7 @@ body{
 	margin-right: auto;
 	margin-left: auto;
 	background: #222;
+	font-family: 'open sans';
 }
 header{
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
@@ -102,10 +103,23 @@ li a:hover {
     background-color: #111;
 }
 ul{
+	list-style-type: none;
     margin: 0;
    	padding-left: 50px;
 	padding-right: 50px;
     margin-left: 50px;
     font-size: 20px;
     line-height: 50px;
+}
+.right{
+	float:right;
+	margin-top:-200px;
+	margin-right: 150px;
+}
+.left{
+	width: 300px;
+	margin-left:150px;
+}
+.hobbies{
+	width: 1000px;
 }
