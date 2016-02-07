@@ -1,11 +1,14 @@
 body{
 	border: 1px solid #gray;
 	border-radius: 3px;
-	width: 1000px;
-	margin-right: auto;
-	margin-left: auto;
+	width: 100vw;
 	background: #222;
 	font-family: 'open sans';
+}
+.container{
+	max-width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
 }
 header{
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
@@ -17,6 +20,7 @@ header{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
 	margin-top: 50px;
 	padding-top:150px;
+	border:1px solid #111;
 }
 section{
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
@@ -61,16 +65,14 @@ section{
 }
 .nav-menu{
 	list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 .nav {
     margin: 0;
-    padding: 0;
+    padding: 1px;
     overflow: hidden;
     background-color: #222;
     font-size: 20px;
-    line-height: 50px;
+    line-height: 40px;
 }
 .nav-li{
 	float:left;
@@ -119,7 +121,4 @@ ul{
 .left{
 	width: 300px;
 	margin-left:150px;
-}
-.hobbies{
-	width: 1000px;
 }
